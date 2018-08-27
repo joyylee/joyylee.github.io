@@ -1,3 +1,23 @@
-html {
-	color: blue;
+p {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 80px;
+    padding-top: 120px;
+    padding-right: 30px;
+    padding-left: 80px;
+    color: black;
+}
+footer {
+	font-family: "Futura", "Helvetica";
+	font-size: 20px;
+	text-align: center;
+	color: #ffe649;
+}
+
+div {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 20px;
+    padding-top: 120px;
+    padding-right: 30px;
+    padding-left: 80px;
+    color: black;
 }
