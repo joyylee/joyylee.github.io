@@ -7,11 +7,12 @@
 	padding-left: 0px;
 	color: black;
 }
-/*#joyceLee2 {
+#joyceLee1 {
 	font-size: 66px;
+	padding-top: 40px;
 	padding-left: 0px;
 
-}*/
+}
 
 .navigation {
 	text-align: right;
@@ -55,7 +56,7 @@ div {
 }
 .sticky {
 	position: fixed;
-	top: 0;
+	top: 0px;
 	color: blue;
 	transition: 2s color;
 	width: 100%;
@@ -74,8 +75,8 @@ div {
 
 .stickys2 {
 	position: fixed;
-	    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+/*	    z-index: 1;  Stay on top */
+    top: 10px; /* Stay at the top */
     left: 0;
 	top: 30px;
 	color: blue;
