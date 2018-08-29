@@ -16,7 +16,6 @@
 
 .navigation {
 	text-align: right;
-	color: white;
 }
 
 .head {
@@ -30,12 +29,14 @@
 
 .project {
 	width: 33%;
+	height: 800px;
 }
 footer {
 	font-family: "Futura", "Helvetica";
 	font-size: 20px;
 	text-align: center;
 	color: gray;
+	padding-bottom: 15px;
 }
 
 div {
@@ -46,7 +47,9 @@ div {
 	padding-left: 160px;
 	color: black;
 }
-
+.art {
+	padding-left: 15px;
+}
 .separator {
 	text-align: center;
 	color:white;
@@ -64,15 +67,6 @@ div {
 	background-color: white;
 }
 
-.stickys {
-	position: fixed;
-	top: 2;
-	color: transparent;
-	outline-color: red;
-	transition: 2s all;
-}
-
-
 .stickys2 {
 	position: fixed;
 /*	    z-index: 1;  Stay on top */
@@ -80,6 +74,7 @@ div {
     left: 0;
 	top: 30px;
 	color: blue;
+	transition-duration: 10s all;
 	text-align: right;
 	transition: 2s all;
 }
