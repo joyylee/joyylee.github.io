@@ -1,78 +1,93 @@
 
-  <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
-        </head>
-        <div class="emptyBox">  </div>
-    <div class="header" id="joyceLee1"> <h1> JOYCE <br /> LEE </h1></div>
-    <script type="text/javascript" src="index.js"></script>
-    <div class="header2" id="joyceLee2"><h2>JOYCE <br /> LEE </h2><div>
-    <script type="text/javascript" src="index.js"></script>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<div class="emptyBox">  </div>
+<div class="head">
+  <div class="header" id="joyceLee1"> <h1> JOYCE <br /> LEE </h1></div>
+  <script type="text/javascript" src="index.js"></script>
+<!--     <div class="header2" id="joyceLee2"><h2>JOYCE <br /> LEE </h2><div>
+  <script type="text/javascript" src="index.js"></script> -->
 
-<ul class="navigation">
-    <li class="nav-item active">
-        <a class="nav-link scroll" href="#top"> home </a>
+  <ul class="navigation" id="nav" style="list-style-type:none">
+    <li class="nav-item inactive">
+      <a class="nav-link scroll" href="#top"> HOME </a>
     </li>
-    <li class="nav-item active">
-        <a class="nav-link scroll" href="#aboutMe"> about me </a>
+    <li class="nav-item">
+      <a class="nav-link scroll" href="#separatorProjects"> PROJECTS </a>
     </li>
-        <li class="nav-item active">
-        <a class="nav-link scroll" href="#personalProject"> projects </a>
+    <li class="nav-item">
+      <a class="nav-link scroll" href="#separatorDesign"> DESIGN </a>
     </li>
-</ul>
-  <body>
-<!--ABOUT ME-->
+    <li class="nav-item">
+      <a class="nav-link scroll" href="#separatorDesign"> FINE ARTS </a>
+    </li>
+  </ul>
+  <script type="text/javascript" src="index.js"></script>
+</div>
+<body id="body">
+  <!--ABOUT ME-->
 
-<div class="body" id="aboutMe">
-	ABOUT ME <br /> <br />
-	Computer Scientist, Artist, Designer <br />
-Like the two colors collide to create a 3D object, I believe my unique set of talents and interests makes me a 3D personality and asset to the team </div>
+  <div class="body" id="aboutMe">
+   ABOUT ME <br /> <br />
+   Computer Scientist, Artist, Designer <br />
+ Like the two colors collide to create a 3D object, I believe my unique set of talents and interests makes me a 3D personality and asset to the team </div>
 
-<!--PERSONAL PROJECTS-->
-    <div id= "personalProject">
-    	PERSONAL PROJECTS <br /> <br />
-    	EAT: Eat in All the Time <br />
-    	Denver, Colorado <br />
-    	Ann Arbor, Michigan<br />
-        <img src="img/eat1.png" style="width:25%;height:25%;">
-    </div>
+ <div class="separator" id="separatorProjects">. . . . .<br /></div>
 
-<div>
-    	FABLE FIRE<br />
-    	Lund Universitet, Sweden
-<img src="img/fableFire.jpg" style="width:25%;height:25%;">
-<img src="img/fableFire2.png" style="width:25%;height:25%;">
-    </div>
+ <!--PERSONAL PROJECTS-->
+ <div id= "category">
+   <div class="project">
+     PERSONAL PROJECTS <br /> <br />
+     EAT: Eat in All the Time <br />
+     Denver, Colorado <br />
+     Ann Arbor, Michigan<br />
+     <img src="img/eat1.png" style="width:25%;height:25%;"> </div>
 
-<div>
-    	THIS WEBSITE<br />
-    	Ann Arbor, MI
+     <div class="project">
+       FABLE FIRE<br />
+       Lund Universitet, Sweden
+       <img src="img/fableFire.jpg" style="width:25%;height:25%;">
+       <img src="img/fableFire2.png" style="width:25%;height:25%;">
+     </div>
 
-    </div>
-<!--DESIGN-->
-<div id="design">
-	DESIGN <br /><br />
-    	KSEA Apparel<br />
-    	Ann Arbor, Michigan
-<img src="img/KSEAapparel.png" style="width:25%;height:25%;">
-<img src="img/KSEAfestifall.png" style="width:25%;height:25%;">
-    </div>
+     <div class="project" >
+       THIS WEBSITE<br />
+       Ann Arbor, MI
 
-    <div>
-    	CONSIDER MAGAZINE<br />
-    	Ann Arbor, Michigan
+     </div>
+   </div>
+   <div class="separator" id="separatorDesign">. . . . .<br /></div>
 
-    </div>
+   <!--DESIGN-->
+   <div id="category">
+     <div class="GD" id="design">
+       DESIGN <br /><br />
+       KSEA Apparel<br />
+       Ann Arbor, Michigan
+       <img src="img/KSEAapparel.png" style="width:25%;height:25%;">
+       <img src="img/KSEAfestifall.png" style="width:25%;height:25%;">
+     </div>
 
-<!--FINE ART-->
-<div id="fineArt">
-	FINE ARTS <br /><br />
-    	DRAWING & PAINTING <br />
-    	Where I am, my art is
+     <div class="GD">
+       CONSIDER MAGAZINE<br />
+       Ann Arbor, Michigan
+     </div>
+   </div>
+   <div class="separator">. . . . .<br /></div>
 
-    </div>
+   <!--FINE ART-->
+   <div class="FA" id="fineArt">
+     FINE ARTS <br /><br />
+     DRAWING & PAINTING <br />
+     Where I am, my art is
 
-  </body>
-  <footer>CONTACT ME ! <br />
-  		  Email: joyylee@umich.edu <br />
-  		  Phone: 303.669.0848 
-  		</footer>
+   </div>
+
+ </body>
+ <div class="separator">. . . . .<br /></div>
+ <footer>CONTACT ME ! <br />
+  Email: joyylee@umich.edu <br />
+  Phone: 303.669.0848 
+</footer>

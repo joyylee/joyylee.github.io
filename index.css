@@ -1,50 +1,84 @@
-/*.emptyBox {
-	background-color: black
-	width: 80px;
-	height: 20px;
-}*/
+
 .header {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
-	font-size: 50px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 80px;
-    color: black;
+	font-size: 200px;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-left: 0px;
+	color: black;
 }
-#joyceLee2 {
-		font-size: 66px;
-}
+/*#joyceLee2 {
+	font-size: 66px;
+	padding-left: 0px;
+
+}*/
 
 .navigation {
-	text-align: center;
+	text-align: right;
+	color: white;
 }
 
+.head {
+/*		display: flex;*/
+}
+
+#category {
+	display: flex;
+	padding-left: 0px;
+}
+
+.project {
+	width: 33%;
+}
 footer {
 	font-family: "Futura", "Helvetica";
 	font-size: 20px;
 	text-align: center;
-	color: #ffe649;
+	color: gray;
 }
 
 div {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 	font-size: 20px;
-    padding-top: 60px;
-    padding-right: 40px;
-    padding-left: 80px;
-    color: black;
+	padding-top: 60px;
+	padding-right: 40px;
+	padding-left: 160px;
+	color: black;
 }
 
+.separator {
+	text-align: center;
+	color:white;
+	font-size: 40px;
+	padding-top: 0px;
+	padding-bottom: 60px;
+}
 .sticky {
 	position: fixed;
 	top: 0;
 	color: blue;
-	transition: 2s all;
+	transition: 2s color;
+	width: 100%;
+	height: 200px;
+	background-color: white;
 }
 
 .stickys {
 	position: fixed;
 	top: 2;
-	color: red;
+	color: transparent;
+	outline-color: red;
+	transition: 2s all;
+}
+
+
+.stickys2 {
+	position: fixed;
+	    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+	top: 30px;
+	color: blue;
+	text-align: right;
 	transition: 2s all;
 }
