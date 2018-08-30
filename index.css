@@ -37,6 +37,7 @@ body {
 	width: 33%;
 	height: 800px;
 }
+
 footer {
 	font-family: "Futura", "Helvetica";
 	font-size: 20px;
@@ -78,15 +79,17 @@ div {
     top: 10px; /* Stay at the top */
     left: 0;
 	top: 30px;
-	color: blue;
+	color: black;
 	transition-duration: 10s all;
 	text-align: right;
 	transition: 2s all;
 }
 
 @keyframes mymove {
-    10%   {color: black; left: 150px;}
+	0%  {color: black; left: 150px;}
+    5%   {color: black; left: 150px;}
     30% {color: blue; left: 160px; text-shadow: 3px 3px red;}
     70% {color: blue; left: 160px; text-shadow: 3px 3px red;}
-    90%   {color: black; left: 150px;}
+    95%   {color: black; left: 150px;}
+    100%  {color: black; left: 150px;}
 }
