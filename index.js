@@ -19,3 +19,10 @@ function myFunction() {
 
 }
 
+// document.getElementById('proj').addEventListener('click',function() {
+//   var c = document.getElementsByClassName('circle');
+//   for (var i = 0; i < c.length; i++) {
+//   	c[i].classList.add('animate');
+//   }
+// })
+

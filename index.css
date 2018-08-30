@@ -11,7 +11,9 @@
 	font-size: 66px;
 	padding-top: 40px;
 	padding-left: 0px;
-
+    animation: mymove 2s infinite;
+/*    animation-delay: 5s;
+    animation-iteration-count: 1;*/
 }
 
 .navigation {
@@ -20,6 +22,10 @@
 
 .head {
 /*		display: flex;*/
+}
+
+body {
+	scroll-behavior: smooth;
 }
 
 #category {
@@ -60,7 +66,6 @@ div {
 .sticky {
 	position: fixed;
 	top: 0px;
-	color: blue;
 	transition: 2s color;
 	width: 100%;
 	height: 200px;
@@ -77,4 +82,11 @@ div {
 	transition-duration: 10s all;
 	text-align: right;
 	transition: 2s all;
+}
+
+@keyframes mymove {
+    10%   {color: black; left: 150px;}
+    30% {color: blue; left: 160px; text-shadow: 3px 3px red;}
+    70% {color: blue; left: 160px; text-shadow: 3px 3px red;}
+    90%   {color: black; left: 150px;}
 }
