@@ -15,7 +15,9 @@
 /*    animation-delay: 5s;
     animation-iteration-count: 1;*/
 }
-
+html {
+	scroll-behavior: smooth;
+}
 .navigation {
 	text-align: right;
 }
@@ -39,11 +41,12 @@ body {
 }
 
 footer {
-	font-family: "Futura", "Helvetica";
+	font-family: "Helvetica";
 	font-size: 20px;
 	text-align: center;
 	color: gray;
-	padding-bottom: 15px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 div {
