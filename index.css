@@ -47,15 +47,15 @@ a.active a:hover{
 .project {
 	width: 33%;
 	height: 800px;
-    min-width: 450px
+    min-width: 400px
 }
 
 .GD {
-	min-width: 620px
+	min-width: 600px
 }
 
 .FA {
-	min-width: 1500px
+	min-width: 1200px
 }
 
 .emptyBox {
