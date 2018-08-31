@@ -3,8 +3,8 @@ header {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 	font-size: 200px;
 	padding-top: 0px;
-	padding-right: 30px;
-	padding-left: 0px;
+	padding-right: 20px;
+	left:100px;
 	color: black;
 	width:100%;
 }
@@ -16,7 +16,6 @@ header:hover {
 #joyceLee1 {
 	font-size: 66px;
 	padding-top: 40px;
-	padding-left: 0px;
     animation: mymove 4s 1;
 /*    animation-delay: 5s;
     animation-iteration-count: 1;*/
@@ -26,6 +25,9 @@ html {
 	animation: welcome 1s 1;
 }
 
+.head {
+	padding-left: 0px;
+}
 a.active a:hover{
 	color:red;
 }
@@ -56,6 +58,9 @@ a.active a:hover{
 	min-width: 1500px
 }
 
+.emptyBox {
+	height: 450px;
+}
 footer {
 	font-family: "Futura";
 	font-size: 20px;
@@ -86,9 +91,9 @@ div {
 .sticky {
 	position: fixed;
 	top: 0px;
-/*	transition: 2s color;*/
 	width: 100%;
-	height: 150px;
+	height: 140px;
+	left: 143px;
 	background-color: white;
 }
 
@@ -99,9 +104,9 @@ div {
     left: 0;
 	top: 30px;
 	color: black;
-	transition-duration: 10s all;
 	text-align: right;
 	transition: 2s all;
+	animation:welcome 2s 1;
 }
 
 @keyframes welcome {
@@ -111,19 +116,6 @@ div {
 	100% {visibility: visible;
   opacity: 1;
   transition: opacity 2s linear;}
-}
-
-.fadeOutTransition {
-
-	animation: welcome 2s 1;
-
-}
-
-.fadeInTransition {
-
-	visibility: visible;
-  opacity: 1;
-  transition: opacity 2s linear;
 }
 
 @keyframes mymove {
