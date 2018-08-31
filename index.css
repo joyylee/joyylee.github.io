@@ -1,52 +1,68 @@
 
-.header {
+header {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 	font-size: 200px;
 	padding-top: 0px;
 	padding-right: 30px;
 	padding-left: 0px;
 	color: black;
+	width:100%;
+}
+
+header:hover {
+	color: blue; left: 160px; text-shadow: 3px 3px red;
+	transition: 0s;
 }
 #joyceLee1 {
 	font-size: 66px;
 	padding-top: 40px;
 	padding-left: 0px;
-    animation: mymove 2s infinite;
+    animation: mymove 4s 1;
 /*    animation-delay: 5s;
     animation-iteration-count: 1;*/
 }
 html {
 	scroll-behavior: smooth;
+	animation: welcome 1s 1;
+}
+
+a.active a:hover{
+	color:red;
 }
 .navigation {
 	text-align: right;
-}
-
-.head {
-/*		display: flex;*/
-}
-
-body {
-	scroll-behavior: smooth;
+	padding-top: 8px;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	color: black;
 }
 
 #category {
 	display: flex;
 	padding-left: 0px;
+
 }
 
 .project {
 	width: 33%;
 	height: 800px;
+    min-width: 450px
+}
+
+.GD {
+	min-width: 620px
+}
+
+.FA {
+	min-width: 1500px
 }
 
 footer {
-	font-family: "Helvetica";
+	font-family: "Futura";
 	font-size: 20px;
 	text-align: center;
 	color: gray;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 180px;
+	padding-bottom: 20px;
 }
 
 div {
@@ -65,21 +81,21 @@ div {
 	color:white;
 	font-size: 40px;
 	padding-top: 0px;
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 }
 .sticky {
 	position: fixed;
 	top: 0px;
-	transition: 2s color;
+/*	transition: 2s color;*/
 	width: 100%;
-	height: 200px;
+	height: 150px;
 	background-color: white;
 }
 
 .stickys2 {
 	position: fixed;
 /*	    z-index: 1;  Stay on top */
-    top: 10px; /* Stay at the top */
+    top: 10px; 
     left: 0;
 	top: 30px;
 	color: black;
@@ -88,11 +104,33 @@ div {
 	transition: 2s all;
 }
 
+@keyframes welcome {
+	0% {visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;}
+	100% {visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;}
+}
+
+.fadeOutTransition {
+
+	animation: welcome 2s 1;
+
+}
+
+.fadeInTransition {
+
+	visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
 @keyframes mymove {
 	0%  {color: black; left: 150px;}
     5%   {color: black; left: 150px;}
-    30% {color: blue; left: 160px; text-shadow: 3px 3px red;}
+    45% {color: blue; left: 160px; text-shadow: 3px 3px red;}
     70% {color: blue; left: 160px; text-shadow: 3px 3px red;}
-    95%   {color: black; left: 150px;}
+    80%   {color: black; left: 150px;}
     100%  {color: black; left: 150px;}
 }
