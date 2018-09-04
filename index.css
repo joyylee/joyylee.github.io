@@ -46,12 +46,13 @@ a.active a:hover{
 
 .project {
 	width: 33%;
-	height: 800px;
+	height: 500px;
     min-width: 400px
 }
 
 .GD {
-	min-width: 600px
+	min-width: 650px
+	height: 800px;
 }
 
 .FA {
@@ -62,7 +63,7 @@ a.active a:hover{
 	height: 450px;
 }
 footer {
-	font-family: "Futura";
+	font-family: "Helvetica Neue";
 	font-size: 20px;
 	text-align: center;
 	color: gray;
@@ -85,8 +86,8 @@ div {
 	text-align: center;
 	color:white;
 	font-size: 40px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 .sticky {
 	position: fixed;
