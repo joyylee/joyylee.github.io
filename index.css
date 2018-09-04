@@ -41,17 +41,19 @@ a.active a:hover{
 #category {
 	display: flex;
 	padding-left: 0px;
+	margin:0;
 
 }
 
 .project {
 	width: 33%;
 	height: 500px;
-    min-width: 400px
+    min-width: 450px
 }
 
 .GD {
-	min-width: 650px
+	width: 50%;
+	min-width: 850px
 	height: 800px;
 }
 
