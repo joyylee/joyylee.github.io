@@ -149,10 +149,10 @@ div {
     100%  {color: black; left: 150px;}
 }
 .gallery {
-	margin: 5vw;
+	margin: 5px;
 	float: left;
 	position: relative;
-	width: 50vw;
+	width: 600px;
 }
 
 .gallery_img {
@@ -174,7 +174,7 @@ filter: alpha(opacity=50);
 	top: 0;
 	bottom: 0;
 	left: 40px;
-	width: 450px;
+	width: 500px;
 	right: 20px;
 	color: black;
 	visibility: hidden;
