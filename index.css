@@ -15,11 +15,23 @@ header:hover {
 }
 #joyceLee1 {
 	font-size: 66px;
-	padding-top: 40px;
-    animation: mymove 4s 1;
+	padding-top: 20px;
+	animation: mymove 4s 1;
+	padding-left: 0px;
+	font-size: 36px;
 /*    animation-delay: 5s;
     animation-iteration-count: 1;*/
 }
+#joyceLee2 {
+	font-size: 66px;
+	padding-top: 20px;
+	animation: mymove 4s 1;
+	padding-left: 0px;
+	font-size: 36px;
+	animation: mymove 4s 1;
+
+}
+
 html {
 	scroll-behavior: smooth;
 	animation: welcome 1s 1;
@@ -27,6 +39,10 @@ html {
 
 .head {
 	padding-left: 0px;
+	padding-top: 0px;
+}
+.nav-item {
+	color: black;
 }
 a.active a:hover{
 	color:red;
@@ -37,6 +53,7 @@ a.active a:hover{
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 	color: black;
 }
+
 
 #category {
 	display: flex;
@@ -51,18 +68,9 @@ a.active a:hover{
     min-width: 480px
 }
 
-.GD {
-	width: 50%;
-	min-width: 850px
-	height: 800px;
-}
-
-.FA {
-	min-width: 1200px
-}
-
 .emptyBox {
-	height: 450px;
+	height: 400px;
+	min-width: 800px
 }
 
 .skills {
@@ -102,19 +110,18 @@ div {
 	width: 100%;
 	height: 140px;
 	left: 143px;
-	background-color: white;
 }
 
 .stickys2 {
 	position: fixed;
 /*	    z-index: 1;  Stay on top */
     top: 10px; 
-    left: 0;
+    right: 20px;
 	top: 30px;
 	color: black;
 	text-align: right;
-	transition: 2s all;
-	animation:welcome 2s 1;
+	/* transition: 2s all;
+	animation:welcome 2s 1; */
 }
 
 @keyframes welcome {
@@ -134,3 +141,25 @@ div {
     80%   {color: black; left: 150px;}
     100%  {color: black; left: 150px;}
 }
+div.gallery {
+	/* margin: 5px; */
+	float: left;
+	width: 550px;
+  }
+  
+  /* div.gallery:hover {
+
+  }
+   */
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: left;
+  }
+  div.images {
+	  float: center;
+  }
