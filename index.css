@@ -143,7 +143,7 @@ div {
 }
 div.gallery {
 	/* margin: 5px; */
-	float: left;
+	float: center;
 	width: 550px;
   }
   
