@@ -1,5 +1,12 @@
 
-header {
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+  }
+  
+  header {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 	font-size: 200px;
 	padding-top: 0px;
@@ -141,25 +148,66 @@ div {
     80%   {color: black; left: 150px;}
     100%  {color: black; left: 150px;}
 }
-div.gallery {
-	/* margin: 5px; */
-	float: center;
-	width: 550px;
-  }
-  
-  /* div.gallery:hover {
+.gallery {
+	margin: 5vw;
+	float: left;
+	position: relative;
+	width: 50vw;
+}
 
-  }
-   */
-  div.gallery img {
-	width: 100%;
-	height: auto;
-  }
+.gallery_img {
+width: 100%;
+height: auto;
+}
+div.gallery:hover .gallery_img {
+opacity: 0.5;
+filter: alpha(opacity=50);
+
+}
+
+.gallery:hover .desc_layer {
+  visibility: visible;
+  opacity: 1;
+}
+.desc_layer {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 20px;
+	width: 450px;
+	right: 20px;
+	/* background: rgb(212, 212, 214); */
+	color: black;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
   
-  div.desc {
-	padding: 15px;
-	text-align: center;
+	/* transition effect. not necessary */
+	transition: opacity .2s, visibility .2s;
   }
-  div.images {
-	  float: center;
+.desc {
+	transition: .2s;
+	transform: translateY(1em);
   }
+  .gallery:hover .desc {
+	transform: translateY(0);
+  }
+div.images {
+	float: center;
+}
+div.FA {
+right: 50vw;
+left: 40vw;
+float: center;
+/* margin-top: -100px; */
+}
+div.what {
+background-image: url("img/ye.jpg");
+background-size: 300px auto; 
+background-repeat: no-repeat;
+background-position: center;
+left: 0;
+top: 0;
+}
