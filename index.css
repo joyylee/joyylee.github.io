@@ -160,7 +160,7 @@ width: 100%;
 height: auto;
 }
 div.gallery:hover .gallery_img {
-opacity: 0.5;
+opacity: 0.8;
 filter: alpha(opacity=50);
 
 }
