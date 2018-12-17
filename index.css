@@ -76,7 +76,7 @@ a.active a:hover{
 }
 
 .emptyBox {
-	height: 400px;
+	height: 380px;
 	min-width: 800px
 }
 
@@ -160,7 +160,7 @@ width: 100%;
 height: auto;
 }
 div.gallery:hover .gallery_img {
-opacity: 0.7;
+opacity: 0.3;
 filter: alpha(opacity=50);
 
 }
@@ -189,6 +189,7 @@ filter: alpha(opacity=50);
 .desc {
 	transition: .2s;
 	transform: translateY(1em);
+	text-align: left;
   }
   .gallery:hover .desc {
 	transform: translateY(0);
@@ -197,9 +198,15 @@ div.images {
 	float: center;
 }
 div.FA {
-right: 50vw;
-left: 40vw;
-float: center;
+/* right: 50vw;
+left: 40vw; */
+/* float: center; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 100vh;
 /* margin-top: -100px; */
 }
 div.what {
@@ -209,4 +216,8 @@ background-repeat: no-repeat;
 background-position: center;
 left: 0;
 top: 0;
+}
+.description {
+	font-size: 15px;
+	text-align: left;
 }
