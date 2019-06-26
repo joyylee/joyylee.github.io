@@ -8,7 +8,7 @@ import flask
 import insta485
 
 
-@insta485.app.route('/', methods=['GET', 'POST'])
+@insta485.app.route('/', methods=['GET'])
 def show_index():
     """Start Page."""
     # redirect to login page if not logged in
@@ -33,3 +33,22 @@ def show_index():
     # context = {"logname": flask.session['logname'], "posts": posts}
     return flask.render_template("index.html")
 
+@insta485.app.route('/projects.html', methods=['GET'])
+def show_projects():
+        return flask.render_template("projects.html")
+
+@insta485.app.route('/arts.html', methods=['GET'])
+def show_arts():
+        return flask.render_template("arts.html")
+
+@insta485.app.route('/contact.html', methods=['GET', 'POST'])
+def show_contact():
+        return flask.render_template("contact.html")
+
+@insta485.app.route('/cv.html', methods=['GET'])
+def show_cv():
+        return flask.render_template("cv.html")
+
+@insta485.app.route('/side.html', methods=['GET'])
+def show_side():
+        return flask.render_template("side.html")
